@@ -1,4 +1,4 @@
-package com.taufer.tales.commentstream;
+package com.taufer.tales.controller;
 
 import com.taufer.tales.dto.*;
 import com.taufer.tales.service.CommentService;

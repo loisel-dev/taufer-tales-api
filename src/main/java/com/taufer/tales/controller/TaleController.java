@@ -1,4 +1,4 @@
-package com.taufer.tales.taleservice;
+package com.taufer.tales.controller;
 
 import com.taufer.tales.common.PageResponse;
 import com.taufer.tales.dto.BookshelfItemResponse;

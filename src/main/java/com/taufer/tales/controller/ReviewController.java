@@ -1,11 +1,10 @@
-package com.taufer.tales.reviewforge;
+package com.taufer.tales.controller;
 
 import com.taufer.tales.dto.*;
 import com.taufer.tales.service.ReviewService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.validation.annotation.Validated;
 import jakarta.validation.Valid;
