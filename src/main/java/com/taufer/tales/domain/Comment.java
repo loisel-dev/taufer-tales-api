@@ -16,8 +16,10 @@ public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @ManyToOne(optional = false)
+
+    @ManyToOne(optional = false, cascade = CascadeType.ALL)
     private Review review;
+
     @ManyToOne(optional = false)
     private User user;
     @ManyToOne

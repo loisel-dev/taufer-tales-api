@@ -19,10 +19,13 @@ public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @ManyToOne(optional = false)
+
+    @ManyToOne(optional = false, cascade = CascadeType.ALL)
     private Tale tale;
+
     @ManyToOne(optional = false)
     private User user;
+
     @Column(nullable = false)
     private int rating; // 1..5
     private String title;
